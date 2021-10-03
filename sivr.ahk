@@ -92,7 +92,7 @@ return
 ;        IT MESSES WITH CHROME ZOOM SHORTCUT    ;
 ;===============================================;
 
-; [Shift + Mouse Wheel Up] Next chrome tab
+; [Alt + Mouse Wheel Up] Next chrome tab
 !WheelUp::
 IfWinActive, Google Chrome
 {
@@ -101,7 +101,7 @@ IfWinActive, Google Chrome
     return
 }
 
-; [Shift + Mouse Wheel Down] Previous chrome tab
+; [Alt + Mouse Wheel Down] Previous chrome tab
 !WheelDown::
 IfWinActive, Google Chrome
 {
