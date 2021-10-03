@@ -17,7 +17,7 @@ return
 
 ; [Scroll Lock] Switch chrome to VSCode
 ScrollLock::
-WinActivate, ahk_exe chrome.exe
+WinActivate, Google Chrome
 return
 
 
