@@ -93,7 +93,7 @@ return
 ;===============================================;
 
 ; [Shift + Mouse Wheel Up] Next chrome tab
-+WheelUp::
+!WheelUp::
 IfWinActive, Google Chrome
 {
     sendevent {CTRL down}{TAB down}
@@ -102,7 +102,7 @@ IfWinActive, Google Chrome
 }
 
 ; [Shift + Mouse Wheel Down] Previous chrome tab
-+WheelDown::
+!WheelDown::
 IfWinActive, Google Chrome
 {
     sendevent {CTRL down}{PgUp down}
